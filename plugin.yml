@@ -1,0 +1,21 @@
+name: Freezed
+main: Xsirot\Freezed\Main
+api: 5.0.0
+version: 1.0.0
+author: Xsirot
+
+commands:
+  freeze:
+    description: Freeze a player
+    permission: freezed.freezed
+  unfreeze:
+    description: Unfreeze a player
+    permission: freezed.unfreezed
+
+permissions:
+  freezed.freezed:
+    description: Permission for Freeze command
+    default: op
+  freezed.unfreezed:
+    description: Permission for Unfreeze command
+    default: op
